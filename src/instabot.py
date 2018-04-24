@@ -297,7 +297,7 @@ class InstaBot:
             finder = r.text.find(self.user_login)
             if finder != -1:
                 ui = UserInfo()
-                self.user_id = 7467802891
+                self.user_id = #enter your userID here.
                 self.login_status = True
                 log_string = '%s login success!' % (self.user_login)
                 self.write_log(log_string)
